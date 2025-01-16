@@ -1,0 +1,39 @@
+artifact_path: model
+flavors:
+  python_function:
+    artifacts:
+      model:
+        path: artifacts/air_model.ubj
+        uri: ./air_model.ubj
+      target_encoder:
+        path: artifacts/target_encoder.pkl
+        uri: ./target_encoder.pkl
+    cloudpickle_version: 3.1.0
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.12.2
+    streamable: false
+mlflow_version: 2.19.0
+model_size_bytes: 142851
+model_uuid: b37aa80575f74819b98322a4420b910b
+run_id: 1faa06996ad94733a1904ff8ea9976e4
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "Temperature", "required": true}, {"type":
+    "double", "name": "Humidity", "required": true}, {"type": "double", "name": "PM2.5",
+    "required": true}, {"type": "double", "name": "PM10", "required": true}, {"type":
+    "double", "name": "NO2", "required": true}, {"type": "double", "name": "SO2",
+    "required": true}, {"type": "double", "name": "CO", "required": true}, {"type":
+    "double", "name": "Proximity_to_Industrial_Areas", "required": true}, {"type":
+    "double", "name": "Population_Density", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int32", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2025-01-14 17:11:12.104639'

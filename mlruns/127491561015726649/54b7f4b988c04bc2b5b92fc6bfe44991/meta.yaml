@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/gabriel/Documents/build_manage_deploy/ml_flow_2/mlruns/127491561015726649/54b7f4b988c04bc2b5b92fc6bfe44991/artifacts
+end_time: 1736873132016
+entry_point_name: ''
+experiment_id: '127491561015726649'
+lifecycle_stage: active
+run_id: 54b7f4b988c04bc2b5b92fc6bfe44991
+run_name: unequaled-ram-758
+run_uuid: 54b7f4b988c04bc2b5b92fc6bfe44991
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736873128200
+status: 3
+tags: []
+user_id: gabriel

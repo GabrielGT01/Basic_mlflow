@@ -1,0 +1,14 @@
+name: simple-project
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - pathlib
+  - pip
+  - jupyter
+  - pip:
+    - mlflow
+    - xgboost

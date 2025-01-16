@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/468274013418532110/1faa06996ad94733a1904ff8ea9976e4/artifacts
+end_time: 1736874672995
+entry_point_name: ''
+experiment_id: '468274013418532110'
+lifecycle_stage: active
+run_id: 1faa06996ad94733a1904ff8ea9976e4
+run_name: powerful-lynx-783
+run_uuid: 1faa06996ad94733a1904ff8ea9976e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736874671953
+status: 3
+tags: []
+user_id: gabriel

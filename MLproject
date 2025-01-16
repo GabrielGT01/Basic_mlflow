@@ -1,0 +1,11 @@
+name: simple-project
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      data: {type: str, default: ./updated_pollution_dataset.csv}
+      early_stopping_rounds: {type: int, default: 10}
+      average: {type: str, default: weighted}
+    command: "python mlflow-projects-example.py --data {data} --early_stopping_rounds {early_stopping_rounds} --average {average}"
